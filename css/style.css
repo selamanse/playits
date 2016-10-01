@@ -1,0 +1,111 @@
+/*
+*
+*  PlayIts Custom Stylesheet                            
+*  Author: Selamanse <selamanse@scheinfrei.info>                                 				  
+*
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../images/stripe.png");
+	background-repeat: repeat;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 12pt;
+	height: 100%;
+}
+
+#menu-wrapper{
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	height: 60px;
+	width: auto;
+	background: #000;
+}
+
+#menu{
+	width: auto;
+	text-align: center;
+	color: #FFF;
+	font-size: 2.5em;
+}
+
+#mainscene-wrapper{
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	height: auto;
+	width: auto;
+}
+
+#mainscene{
+	position: relative;
+	padding: 10px 0px;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	left: 0px;
+}
+
+
+.playit{
+    cursor: pointer;    
+    width: 200px;
+	height: 200px;
+	background-image: url('../images/button_background.png');
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+}
+
+.playit.playit-loading{
+	background-image: url('../images/button_loading.png');
+}
+
+.playit-description{
+	font-size: 1.2em;
+	width: 100%;
+	position: absolute;
+	top: 128px;
+	left: 0;
+	text-align: center;
+}
+
+.playit-inner{
+    height: 170px;
+    left: 15px;
+    position: relative;
+    top: 15px;
+    width: 170px;
+}
+
+.playit-loading-text{
+    font-size: 2em;
+    height: 30px;
+    left: 0;
+    margin-top: -20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+.playit-handle{
+	background-position: center top;
+    background-repeat: no-repeat;
+    width: 128px;
+    height: 128px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -64px;
+}
+
+.playit .playit-handle {
+	background-image: url('../images/play.png');
+}
+
+.playit.playit-playing .playit-handle{
+	background-image: url('../images/playing.png');
+}
