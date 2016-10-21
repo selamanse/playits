@@ -2,7 +2,7 @@
 
 playit is a custom jquery-ui widget that enables you to build your own web-based soundboard.
 
-payits can be configured with ogg and m4a soundfiles which allows for support for different browsers.
+playit can be configured with ogg and m4a soundfiles which allows for support for different browsers.
 
 # Usage
 
