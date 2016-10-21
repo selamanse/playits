@@ -1,7 +1,7 @@
 # playits html5 soundboard
 
 
-![playits](https://cloud.githubusercontent.com/assets/16484527/19605896/bdf7cd30-97db-11e6-9689-29be0e3d6eea.PNG)
+![playits](https://cloud.githubusercontent.com/assets/16484527/19606212/7f67714e-97de-11e6-9dec-3ea1c4ca4c72.PNG)
 
 # what
 
