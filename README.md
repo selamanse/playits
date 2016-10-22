@@ -10,7 +10,7 @@ playit is a custom jquery-ui widget that enables you to build your own web-based
 
 a perfect web application for your favourite tracks at your fingertips.
 
-#### additional features
+### additional features
 
 playit can be configured with ogg and m4a soundfiles which allows for support for different browsers.
 
