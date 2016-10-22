@@ -13,7 +13,7 @@ a perfect web application for your favourite tracks at your fingertips.
 
 #### additional features
 
-payits can be configured with ogg and m4a soundfile (for different browser support).
+playits can be configured with ogg and m4a soundfile (for different browser support).
 
 # usage
 
