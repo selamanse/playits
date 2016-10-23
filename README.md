@@ -1,5 +1,5 @@
 
-#***Play-its** HTML Soundboard*
+#*Play-its* *HTML Soundboard*
 <p align="center">
     <img alt="PlayIts" src="https://cloud.githubusercontent.com/assets/16484527/19606212/7f67714e-97de-11e6-9dec-3ea1c4ca4c72.PNG?raw=true">
 </p>
