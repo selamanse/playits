@@ -1,27 +1,47 @@
-# playits html5 soundboard
 
-![playits](https://cloud.githubusercontent.com/assets/16484527/19606212/7f67714e-97de-11e6-9dec-3ea1c4ca4c72.PNG)
+#*Play-its* *HTML Soundboard*
+<p align="center">
+    <img alt="PlayIts" src="https://cloud.githubusercontent.com/assets/16484527/19606212/7f67714e-97de-11e6-9dec-3ea1c4ca4c72.PNG?raw=true">
+</p>
 
-# what
+---
 
-playit is a custom jquery-ui widget that enables you to build your own web-based soundboard.
+***Play-its*** is a custom jQuery-ui widget that enables you to build your own web-based soundboard. Your favourite tracks at your fingertips! 
 
-# why
+Check out a demo at https://selamanse.github.io/playits
 
-a perfect web application for your favourite tracks at your fingertips.
+## Features
 
-### additional features
+***Play-its*** can be configured with ogg and m4a soundfiles which allows for support for different browsers.
 
-playit can be configured with ogg and m4a soundfiles which allows for support for different browsers.
+## Usage
 
-# Demo
+Import ***Play-its*** and its dependencies in your html file.
 
-You can check out a demo at https://selamanse.github.io/playits
+```html
+<head>
+	...
+	<link rel="stylesheet" href="vendor/jquery-ui.css" />
+	<script type="text/javascript" src="vendor/jquery.js"></script>
+	<script type="text/javascript" src="vendor/jquery-ui.js"></script>
+	<script type="text/javascript" src="vendor/jquery-rotate.js"></script>
+	
+	<script type="text/javascript" src="js/jquery-playit.js"></script>
+	...
+</head>
+```
 
-# Usage
+To add a sound you need to create a new jQuery element, call the *playit* function and supply the desired values of the sound to play.
 
-Please see: [index.html](index.html) and [js/script.js](js/script.js) for reference.
+```javascript
+$("<div>").playit({
+	sourcemp4: "sounds/applause.m4a", 
+	sourceogg: "sounds/applause.ogg", 
+	description: "A group of people applauding."	
+});
+```
+Please see: [index.html](index.html) and [js/script.js](js/script.js) for a full example.
 
-# Images
+## Credits
 
 The showcase soundboard uses images from [Sketchy-Icons Collection by AzureSol](http://azuresol.deviantart.com/art/Sketchy-Icons-134668163)
