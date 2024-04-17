@@ -5,7 +5,8 @@
 *
 */
 $.each(sounds, function (i,e){
-	var generated_desc = e.split('/')[2]
+	var e_split = e.split('/')
+	var generated_desc = e_split[e_split.length - 1]
 	$("<div>").playit({
 		sourcemp4: `${e}.m4a`, 
 		sourceogg: `${e}.ogg`, 
